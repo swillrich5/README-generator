@@ -1,10 +1,10 @@
-# Chucho's Time Machine
+# Professional README Generator
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Description
 
-It's a time machine.
+Using node.js with the inquirer module, a user can generate a professional looking README by answering a few questions.
 
 ## Table of Contents
 
@@ -26,15 +26,16 @@ npm i
 
 ## Usage
 
-execute by running 'node index'
+please report any issues.  See my contact info below.
 
 ## License
-GNU General Public License v3.0
-(https://www.gnu.org/licenses/gpl-3.0)
+GNU General Public License v2.0
+(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Contributing
-contact me
+Please report any issues via my contact information below.
 
 ## Questions
-GitHub Profile: https://github.com/chucho
-Email Address: chucho@gmail.com
+GitHub Profile: https://github.com/swillrich5
+
+Email Address: swillrich@gmail.com
