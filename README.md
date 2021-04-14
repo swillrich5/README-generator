@@ -1,10 +1,12 @@
-# Professional README Generator
+# README-generator
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
 Using node.js with the inquirer module, a user can generate a professional looking README by answering a few questions.
+
+---
 
 ## Table of Contents
 
@@ -21,19 +23,25 @@ Using node.js with the inquirer module, a user can generate a professional looki
 ## Installation
 
 ```
-npm i
+npm init inquirer
 ```
+
+---
 
 ## Usage
 
-please report any issues.  See my contact info below.
+Please report any issues.  Please see my contact information below.
 
 ## License
-GNU General Public License v2.0
-(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+MIT License
+(https://opensource.org/licenses/MIT)
+
+---
 
 ## Contributing
 Please report any issues via my contact information below.
+
+---
 
 ## Questions
 GitHub Profile: https://github.com/swillrich5

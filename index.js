@@ -70,7 +70,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
             console.log(err);
-        }
+        } else console.log(`Generating README`);
     });
 }
 
@@ -79,13 +79,9 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
-            console.log('Generating README...');
-            console.log(answers);
-            // let markdown = generateMarkdown(JSON.stringify(answers, null, '\t'));
-            let markdown = generateMarkdown(answers);
-
-            writeToFile('README.md', markdown);
-        });
+            let markdown = generateMarkdown(answers)
+            writeToFile('README.md', markdown)
+        })
 }
 
 // Function call to initialize app
