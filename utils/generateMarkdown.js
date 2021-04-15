@@ -30,11 +30,11 @@ function renderLicenseBadge(data) {
       return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
     default: 
       console.log("Licensing determination error");
-      return("Licensing determination error");
+      return("Licensing determination error"); 
   }
 }
 
-// returns a link to the license selected
+// returns a link to the selected license
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
   switch (data['licenseType']) {
@@ -74,6 +74,8 @@ function renderLicenseLink(data) {
       return `Mozilla Public License 2.0
 (https://opensource.org/licenses/MPL-2.0)`;
     case 'The Unlicense' :
+      return `http://unlicense.org/`;
+    default:
       console.log("Licensing determination error");
       return("Licensing determination error");
   } 

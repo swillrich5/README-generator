@@ -5,6 +5,7 @@
 ---
 
 ![Data Entry](./assets/images/README-generator-screenshot.png "Data Entry Screenshot")
+
 Data Entry Screenshot
 
 
@@ -36,7 +37,7 @@ npm install inquirer
 
 ## Usage
 
-Please report any issues.  See my contact information below.
+The README created by the application can be edited for updates or to add additional information such as a screenshot.
 
 ---
 

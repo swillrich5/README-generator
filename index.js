@@ -27,7 +27,7 @@ const questions = [
         name: 'projectDescription',
       },
     {
-        // trying a checkbox for this.  a list or rawlist might be better?
+        // list seems to work best for this question
     type: 'list',
     name: 'licenseType',
     message: 'What license type should your project have? (use arrow keys and space bar to select)',
