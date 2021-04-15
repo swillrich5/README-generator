@@ -37,7 +37,7 @@ npm install inquirer
 
 ## Usage
 
-The README created by the application can be edited for updates or to add additional information such as a screenshot.
+The README created by the application can be edited for updates or to add additional information such as a screenshot. 
 
 ---
 
