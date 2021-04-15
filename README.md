@@ -1,6 +1,12 @@
 # README-generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+---
+
+![Data Entry](./assets/images/README-generator-screenshot.png "Data Entry Screenshot")
+Data Entry Screenshot
+
 
 ## Description
 
@@ -23,23 +29,25 @@ Using node.js with the inquirer module, a user can generate a professional looki
 ## Installation
 
 ```
-npm init inquirer
+npm install inquirer
 ```
 
 ---
 
 ## Usage
 
-Please report any issues.  Please see my contact information below.
+Please report any issues.  See my contact information below.
+
+---
 
 ## License
-MIT License
-(https://opensource.org/licenses/MIT)
+Apache License 2.0
+(https://opensource.org/licenses/Apache-2.0)
 
 ---
 
 ## Contributing
-Please report any issues via my contact information below.
+Please report any issues using my contact information below.
 
 ---
 

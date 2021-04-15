@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// returns the badge for the license selected
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
   switch (data['licenseType']) {
@@ -34,7 +34,7 @@ function renderLicenseBadge(data) {
   }
 }
 
-// TODO: Create a function that returns the license link
+// returns a link to the license selected
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
   switch (data['licenseType']) {
@@ -81,23 +81,22 @@ function renderLicenseLink(data) {
 
 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// returns the license section of README
 function renderLicenseSection(data) {
 
   if (data.licenseType === 'none') {
-    return ``;
+    return `## License\n\nNone.`;
   } else {
     return `## License`;
   }
 }
   
 
-// TODO: Create a function to generate markdown for README
+// generates the markdown content for the README
 function generateMarkdown(data) {
 
 
-    return `# ${data.projectName}
+  return `# ${data.projectName}
 
 ${renderLicenseBadge(data)}
 
@@ -131,6 +130,8 @@ ${data.installation}
 
 ${data.usage}
 
+---
+
 ${renderLicenseSection(data)}
 ${renderLicenseLink(data)}
 
@@ -148,4 +149,7 @@ Email Address: ${data.emailAddress}
 `;
 }
 
+
+
+// make the generateMarkdown function available 
 module.exports = generateMarkdown;
